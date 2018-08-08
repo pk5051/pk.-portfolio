@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin-top:70px;
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  font-family:Roboto;
+}
+
+.navbar-default{
+  background:#fff;
+  /* background-color: #f6e8e8; */
+  /* background-color: red; */
+  border:2px;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+  /* border-bottom: 2px solid rgba(255, 0, 0, 0.014);
+  background-color: lightgrey; */
+
+}
+
+#showcase img{
+  width:90%;
+  /* margin-left:60px; */
+  /* margin-left: 10px; */
+
+  border-bottom: 7px solid rgb(219, 213, 213);
+  background-color: lightgrey;
+
+  opacity: 0.95;
+  filter: alpha(opacity=95); /* For IE8 and earlier */
+}
+/* #showcase:hover{
+  opacity: 0.93;
+  filter: alpha(opacity=93); /* For IE8 and earlier */
+} */
+
+#showcase .showcase-right{
+  margin-top:90px;
+}
+
+#testimonial{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:40px;
+}
+
+#testimonial p{
+  font-size:32px;
+  font-family: 'Josefin Sans';
+  color:#000;
+}
+
+#testimonial p.customer{
+  font-size:20px;
+  color:#666;
+}
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+#info2{
+  margin:20px 0 60px 0;
+}
+
+#contact{
+  background:url(../img/image3.png);
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+footer{
+  padding:6px;
+  background-color: #292828;
+  color: rgba(250, 235, 215, 0.424);
+  text-decoration: #666;
+  text-decoration: 
+  /* background: url(../img/image3.png); */
+
+}
+
+
+#toCenter {
+  text-align: center;
+}
+
+
+.test {
+  background-color: yellow;
+
+  /* background:#fff; */
+  /* background-color: #f6e8e8; */
+  /* background-color: red; */
+  border:0;
+  font-family:Poppins;
+
+}
+
+#logoH2{
+  text-decoration: overline;
+
+}
+
+.info-left img{
+  /* display: none; */
+  width:90%;
+   /*padding: 10px;*/
+  /* border-bottom: 7px solid rgb(219, 213, 213);
+  background-color: lightgrey; */
+
+  filter:sepia(20%);
+  filter: brightness(.9);
+  opacity: 0.95;
+  filter: alpha(opacity=95); 
+  border-bottom: 7px solid rgb(219, 213, 213);
+  margin: 10px;
+  filter: blur(1px);
+  filter: contrast(150%);
+
+  filter:grayscale(10%);
+  opacity: 0.93;
+  filter: alpha(opacity=93); /* For IE8 and earlier */
+}
+.info-left img:hover{
+
+  filter:grayscale(1%);
+  filter:sepia(0%);
+  opacity: 0.95;
+  filter: alpha(opacity=95); /* For IE8 and earlier */
+  border-bottom: 7px solid rgb(219, 213, 213);
+  transform: scale(1.03); 
+
+}
+
+p{
+  text-indent: 17px;
+  line-height: 1.6;
+}
+span{
+  color: #000;
+  font-weight: bold;
+
+}
+
+#navbar a:hover{
+  color: orange;
+}
+#navbar a:active{
+  color: orange;
+}
+
+
+
+
